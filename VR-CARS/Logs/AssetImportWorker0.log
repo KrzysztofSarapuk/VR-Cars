@@ -15,11 +15,11 @@ D:/DSW/AR i VR/nowe vr cars/VR-CARS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50212
+50266
 Successfully changed project path to: D:/DSW/AR i VR/nowe vr cars/VR-CARS
 D:/DSW/AR i VR/nowe vr cars/VR-CARS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 98.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 82.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/unityeditorfolder/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/unityeditorfolder/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/unityeditorfolder/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/unityeditorfolder/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/unityeditorfolder/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004688 seconds.
+Registered in 0.002491 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 125.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 82.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.169 seconds
+- Completed reload, in  0.880 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2169ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (880ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1801ms)
-			LoadAssemblies (147ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (702ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (222ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (949ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (285ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (603ms)
-				ProcessInitializeOnLoadMethodAttributes (169ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008431 seconds.
+Registered in 0.004438 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 84.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.770 seconds
+- Completed reload, in  1.657 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3772ms)
-		BeginReloadAssembly (608ms)
+	ReloadAssembly (1658ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (407ms)
-		EndReloadAssembly (3071ms)
-			LoadAssemblies (139ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1370ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (685ms)
+			SetupTypeCache (466ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (446ms)
-			SetupLoadedEditorAssemblies (892ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (527ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (617ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -113,11 +113,11 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 second
 Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2818 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.4 MB.
-System memory in use after: 128.6 MB.
+System memory in use before: 128.0 MB.
+System memory in use after: 128.2 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3254.
-Total: 4.849400 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.161800 ms MarkObjects: 4.181900 ms  DeleteObjects: 0.155700 ms)
+Total: 4.782100 ms (FindLiveObjects: 0.365300 ms CreateObjectMapping: 0.163100 ms MarkObjects: 4.135000 ms  DeleteObjects: 0.116800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,73 +131,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Budynki
-  artifactKey: Guid(282c3ea235c5f5346bb644c3c8eed3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki using Guid(282c3ea235c5f5346bb644c3c8eed3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eebc7338ef6d2eebc2930e4cfbc93d0') in 0.008183 seconds 
-  Import took 0.014066 seconds .
+  path: Assets/Models/budynek03.FBX
+  artifactKey: Guid(75eff0c8a71aac3498cede88b0e87b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/budynek03.FBX using Guid(75eff0c8a71aac3498cede88b0e87b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29909350e1ffd09ecde36ba7bb2ce4da') in 0.485675 seconds 
+  Import took 0.492054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.366684 seconds.
-  path: Assets/Models/Budynki/budynek01.FBX
-  artifactKey: Guid(668640864413fe84a97162e8e590e3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki/budynek01.FBX using Guid(668640864413fe84a97162e8e590e3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510e28cb2614c98bbc1506b594cd10e5') in 0.390529 seconds 
-  Import took 0.396665 seconds .
+  Time since last request: 5.139430 seconds.
+  path: Assets/Models/Budynki/budynek05.FBX
+  artifactKey: Guid(19c6d4c180fe8ec40b9d7e7337ebee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek05.FBX using Guid(19c6d4c180fe8ec40b9d7e7337ebee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b5b0297298265da17ed0c55f7f0900') in 0.245666 seconds 
+  Import took 0.252472 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.069812 seconds.
-  path: Assets/Models/Budynki/budynek02.FBX
-  artifactKey: Guid(3e5ad754578365a4b9e943611a1e43ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki/budynek02.FBX using Guid(3e5ad754578365a4b9e943611a1e43ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cec3a9d8c1313b6fb171c6b7436109') in 0.046712 seconds 
-  Import took 0.052535 seconds .
+  Time since last request: 9.294394 seconds.
+  path: Assets/Models/Budynki/budynek05.FBX
+  artifactKey: Guid(19c6d4c180fe8ec40b9d7e7337ebee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek05.FBX using Guid(19c6d4c180fe8ec40b9d7e7337ebee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc38b4e6ded91ff9748aa0335f9b995f') in 0.473390 seconds 
+  Import took 0.480022 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.282052 seconds.
-  path: Assets/Models/Budynki/budynek01.FBX
-  artifactKey: Guid(668640864413fe84a97162e8e590e3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki/budynek01.FBX using Guid(668640864413fe84a97162e8e590e3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2797d3ec7b2b185f9f8269c6cf151a07') in 0.077481 seconds 
-  Import took 0.083355 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/Models/Budynki/budynek05.png
+  artifactKey: Guid(87e3b186471f1f9458375bae89904a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek05.png using Guid(87e3b186471f1f9458375bae89904a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee2c31ba0fc4cac29547192320400e4') in 0.094587 seconds 
+  Import took 0.100586 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/Models/Budynki/budynek01_1.png
-  artifactKey: Guid(9f1f28c985b393a41be50fa7fc2809ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki/budynek01_1.png using Guid(9f1f28c985b393a41be50fa7fc2809ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c173212c954a603af956d88879ed681') in 0.055934 seconds 
-  Import took 0.060973 seconds .
+  Time since last request: 6.708387 seconds.
+  path: Assets/Models/Budynki/budynek03_2.png
+  artifactKey: Guid(74f3e8a35cb2e9a4dbd750c97a5d7b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek03_2.png using Guid(74f3e8a35cb2e9a4dbd750c97a5d7b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f0edf22ae31a155d3c1ed54ce15516') in 0.041858 seconds 
+  Import took 0.231406 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.737065 seconds.
-  path: Assets/Models/Budynki/budynek02.FBX
-  artifactKey: Guid(3e5ad754578365a4b9e943611a1e43ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki/budynek02.FBX using Guid(3e5ad754578365a4b9e943611a1e43ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae62d88b557e9e7215f04df3f66e256a') in 0.062261 seconds 
-  Import took 0.068284 seconds .
+  Time since last request: 2.626879 seconds.
+  path: Assets/Models/Budynki/budynek03_b.png
+  artifactKey: Guid(fdfe424e206f7f941949cfaeb9ba2efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek03_b.png using Guid(fdfe424e206f7f941949cfaeb9ba2efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1a2dfa47b3df788a71b1557333f8d5') in 0.015144 seconds 
+  Import took 0.021344 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Models/Budynki/budynek02.png
-  artifactKey: Guid(d0d738a818444eb43a03ace944d0f5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki/budynek02.png using Guid(d0d738a818444eb43a03ace944d0f5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90da8d1291aca4cba2a7ab73755f375') in 0.011046 seconds 
-  Import took 0.015903 seconds .
+  Time since last request: 0.000406 seconds.
+  path: Assets/Models/Budynki/budynek05.FBX
+  artifactKey: Guid(19c6d4c180fe8ec40b9d7e7337ebee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek05.FBX using Guid(19c6d4c180fe8ec40b9d7e7337ebee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97a1ec4eef044f29955dfeacbfcfa19') in 0.194708 seconds 
+  Import took 0.200813 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.780655 seconds.
-  path: Assets/Models/Budynki/MWindows.mat
-  artifactKey: Guid(0a0fc6c01842e14428f9a70426bdcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki/MWindows.mat using Guid(0a0fc6c01842e14428f9a70426bdcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9645dbb74299c5d6bf26530236061b') in 0.014176 seconds 
-  Import took 0.020189 seconds .
+  Time since last request: 270.273807 seconds.
+  path: Assets/Models/Budynki/budynek03_2.FBX
+  artifactKey: Guid(0c8bba0ced6b7314c83f0ed975c73e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek03_2.FBX using Guid(0c8bba0ced6b7314c83f0ed975c73e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd37e2bfc695036e4c947d54b52718f') in 0.111067 seconds 
+  Import took 0.117712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 94.261486 seconds.
-  path: Assets/Models/Budynki/MWindows.mat
-  artifactKey: Guid(0a0fc6c01842e14428f9a70426bdcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Budynki/MWindows.mat using Guid(0a0fc6c01842e14428f9a70426bdcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498853cce967e5f4d09b9f076663270c') in 0.009928 seconds 
-  Import took 0.016268 seconds .
+  Time since last request: 11.969220 seconds.
+  path: Assets/Models/Budynki/budynek03_2.FBX
+  artifactKey: Guid(0c8bba0ced6b7314c83f0ed975c73e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek03_2.FBX using Guid(0c8bba0ced6b7314c83f0ed975c73e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf31006fde8dd0b6f2ae968e68caf5c') in 0.128773 seconds 
+  Import took 0.134835 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
