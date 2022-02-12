@@ -15,11 +15,11 @@ D:/DSW/AR i VR/nowe vr cars/VR-CARS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53578
+52827
 Successfully changed project path to: D:/DSW/AR i VR/nowe vr cars/VR-CARS
 D:/DSW/AR i VR/nowe vr cars/VR-CARS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 91.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/unityeditorfolder/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,192 @@ Initialize mono
 Mono path[0] = 'C:/unityeditorfolder/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/unityeditorfolder/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/unityeditorfolder/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/unityeditorfolder/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002023 seconds.
+Registered in 0.002017 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
+- Completed reload, in  0.871 seconds
 Domain Reload Profiling:
-	ReloadAssembly (885ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (702ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
+			SetupTypeCache (216ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (271ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (285ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003893 seconds.
+Registered in 0.004502 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.702 seconds
+- Completed reload, in  1.778 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1703ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1779ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1422ms)
-			LoadAssemblies (124ms)
+		EndReloadAssembly (1491ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (484ms)
+			SetupTypeCache (501ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (554ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (590ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (131ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2984 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.9 MB.
+System memory in use after: 156.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3427.
+Total: 5.574000 ms (FindLiveObjects: 0.410600 ms CreateObjectMapping: 0.177000 ms MarkObjects: 4.827000 ms  DeleteObjects: 0.157300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(663158dcc7d850d418097bb2b98ddd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(663158dcc7d850d418097bb2b98ddd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa07557721c59d59961a51908f8801b6') in 0.210406 seconds 
+  Import took 0.218944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(34bbb3c0cac26464295b0ebe14a55aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(34bbb3c0cac26464295b0ebe14a55aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4496198de6287e56e3b62f79e4bc98') in 0.051234 seconds 
+  Import took 0.058430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.751331 seconds.
+  path: Assets/Materials/blue.mat
+  artifactKey: Guid(8b9af9f1f727e2f4594747b42455b5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/blue.mat using Guid(8b9af9f1f727e2f4594747b42455b5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99545c411014fe6efc000c0dbf3dacb4') in 0.262705 seconds 
+  Import took 0.269605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Materials/yellow.mat
+  artifactKey: Guid(83c199345dcdd9e4c84bfb2208709543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/yellow.mat using Guid(83c199345dcdd9e4c84bfb2208709543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8795b3f16e181db2b17fcae4be9432') in 0.012300 seconds 
+  Import took 0.017787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.758913 seconds.
+  path: Assets/Models/Stacja paliw
+  artifactKey: Guid(fcedc2d7f4aee094c8729b34a84a3c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw using Guid(fcedc2d7f4aee094c8729b34a84a3c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac097896e889c82b00b61060ce010cd') in 0.001512 seconds 
+  Import took 0.007773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.375227 seconds.
+  path: Assets/Models/Stacja paliw/stacja paliw.FBX
+  artifactKey: Guid(e8a0f2fd2ad1aed4e886dc7ec886fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/stacja paliw.FBX using Guid(e8a0f2fd2ad1aed4e886dc7ec886fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f95e3b807d50f0bfbee57989e9e715') in 0.467176 seconds 
+  Import took 0.474323 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.585 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1585ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1335ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (451ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
 				ProcessInitializeOnLoadAttributes (302ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.6 MB.
-System memory in use after: 153.7 MB.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.3 MB.
+System memory in use after: 155.5 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3427.
-Total: 5.067200 ms (FindLiveObjects: 0.468700 ms CreateObjectMapping: 0.192000 ms MarkObjects: 4.263500 ms  DeleteObjects: 0.141400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 5.561500 ms (FindLiveObjects: 0.381600 ms CreateObjectMapping: 0.180600 ms MarkObjects: 4.967100 ms  DeleteObjects: 0.030200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,377 +234,313 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Color1.mat
-  artifactKey: Guid(02f5da387099bd3418aba2708f3538c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Color1.mat using Guid(02f5da387099bd3418aba2708f3538c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4460111aa06a4c696b09991828df5307') in 0.371304 seconds 
-  Import took 0.377862 seconds .
+  Time since last request: 582.642804 seconds.
+  path: Assets/Models/Budynki/budynek01.FBX
+  artifactKey: Guid(668640864413fe84a97162e8e590e3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek01.FBX using Guid(668640864413fe84a97162e8e590e3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b801cf7e0546d72b8560f800f7b0b3c') in 0.335325 seconds 
+  Import took 0.343195 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/NewLayer.terrainlayer
-  artifactKey: Guid(cc794915dc46e62499307bec0ac42ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer.terrainlayer using Guid(cc794915dc46e62499307bec0ac42ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be05660d1a27f6acc921eb00f486e61e') in 0.035926 seconds 
-  Import took 0.041565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(663158dcc7d850d418097bb2b98ddd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(663158dcc7d850d418097bb2b98ddd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25cb4b93aab7a89f881b7c464940187') in 0.116559 seconds 
-  Import took 0.123369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/NewLayer 1.terrainlayer
-  artifactKey: Guid(34bbb3c0cac26464295b0ebe14a55aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer 1.terrainlayer using Guid(34bbb3c0cac26464295b0ebe14a55aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fd9a535bcba24db27d58b94c90619b') in 0.010200 seconds 
-  Import took 0.015971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/ExampleAssets
-  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f803e1b12591de9878c5dffbdd6bf0') in 0.001643 seconds 
-  Import took 0.007797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Unable to parse file Assets/Readme.asset: [Parser Failure at line 29: Expect ':' between key and value within mapping]
- -> (artifact id: '544fc4457310c155634f0ecbacb23934') in 0.004043 seconds 
-  Import took 0.009720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.025570 seconds.
-  path: Assets/Models
-  artifactKey: Guid(2d40050f2aeb423448ede2f2662a9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(2d40050f2aeb423448ede2f2662a9c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6001be4b4b1e78b6b2c77ad188d670') in 0.001591 seconds 
-  Import took 0.006750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.215931 seconds.
-  path: Assets/Models/znaki drogowe
-  artifactKey: Guid(2a74694383363de42887fe5605c0eb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe using Guid(2a74694383363de42887fe5605c0eb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27beb011fffa49d3797c0504621ae3a') in 0.001478 seconds 
-  Import took 0.007056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.479282 seconds.
-  path: Assets/Models/znaki drogowe/3_4.FBX
-  artifactKey: Guid(111f20dc9bd9a5541b9583fae22ccd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_4.FBX using Guid(111f20dc9bd9a5541b9583fae22ccd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50890244d74dffa52986224eb6bdb960') in 0.120110 seconds 
-  Import took 0.126387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Models/znaki drogowe/3_zp.FBX
-  artifactKey: Guid(201fd839de5875d4989ab2518da4a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_zp.FBX using Guid(201fd839de5875d4989ab2518da4a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebcfc36372ada08800e72815c0d9269') in 0.059414 seconds 
-  Import took 0.064500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Models/znaki drogowe/3_r.FBX
-  artifactKey: Guid(f5cfe11db981a8b41a4a808564dada8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_r.FBX using Guid(f5cfe11db981a8b41a4a808564dada8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c560017490c0c98429026b2feec4309') in 0.055505 seconds 
-  Import took 0.060567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Models/znaki drogowe/3_x.FBX
-  artifactKey: Guid(50f80f7096f6ce549a468d90b153b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_x.FBX using Guid(50f80f7096f6ce549a468d90b153b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d06b45e559147d3b33be443aa9651d') in 0.048454 seconds 
-  Import took 0.053723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Models/znaki drogowe/s_2_l.FBX
-  artifactKey: Guid(58f8f91aebfa3714594bf7c8f567fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_2_l.FBX using Guid(58f8f91aebfa3714594bf7c8f567fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f943156d57468e4139230578e76c7197') in 0.070107 seconds 
-  Import took 0.075358 seconds .
+  Time since last request: 0.000436 seconds.
+  path: Assets/Models/Budynki/budynek05.FBX
+  artifactKey: Guid(19c6d4c180fe8ec40b9d7e7337ebee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek05.FBX using Guid(19c6d4c180fe8ec40b9d7e7337ebee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f38946c8189a8b86d9455aa2ede64ae') in 0.171073 seconds 
+  Import took 0.177896 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000360 seconds.
-  path: Assets/Models/znaki drogowe/3_jelen.FBX
-  artifactKey: Guid(07c6e9c1fe2c5c94a96cf23edc905f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_jelen.FBX using Guid(07c6e9c1fe2c5c94a96cf23edc905f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6acd63fd7eba8b9b02c11c6727bb18a') in 0.061382 seconds 
-  Import took 0.066422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Models/znaki drogowe/4_t.FBX
-  artifactKey: Guid(65c434ad91a94d24d903aa83fd9b9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/4_t.FBX using Guid(65c434ad91a94d24d903aa83fd9b9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c125efcf92a8d3ca6635e284e22dc3') in 0.053030 seconds 
-  Import took 0.058075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Models/znaki drogowe/s_2_p.FBX
-  artifactKey: Guid(edb4ff589b672b849be86c31f14971c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_2_p.FBX using Guid(edb4ff589b672b849be86c31f14971c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8743d2e2f524e4f48878df9d21c2d0b') in 0.059981 seconds 
-  Import took 0.065033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Models/znaki drogowe/s_1p.FBX
-  artifactKey: Guid(5d9ba2ea1a199b34480e5f23cb092aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_1p.FBX using Guid(5d9ba2ea1a199b34480e5f23cb092aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd9e4fff36be48ea565f60004d3d6f8') in 0.054700 seconds 
-  Import took 0.059817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Models/znaki drogowe/s_1L.FBX
-  artifactKey: Guid(9c6f4ee8b02c127489259d6b53044d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_1L.FBX using Guid(9c6f4ee8b02c127489259d6b53044d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850aae023eb9c47bda8d5a6100dae897') in 0.046654 seconds 
-  Import took 0.051735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Models/znaki drogowe/3_z.FBX
-  artifactKey: Guid(48a9cce698d6cd442a9686c3d7efce31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_z.FBX using Guid(48a9cce698d6cd442a9686c3d7efce31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06333b9ee7ab4df00e2a28c708f1f09b') in 0.052101 seconds 
-  Import took 0.057111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.173829 seconds.
-  path: Assets/Models/znaki drogowe/3_4.FBX
-  artifactKey: Guid(111f20dc9bd9a5541b9583fae22ccd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_4.FBX using Guid(111f20dc9bd9a5541b9583fae22ccd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e17d5f327e7d82572bd66be053d8181') in 0.063958 seconds 
-  Import took 0.070135 seconds .
+  path: Assets/Models/Budynki/MWindows.mat
+  artifactKey: Guid(0a0fc6c01842e14428f9a70426bdcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/MWindows.mat using Guid(0a0fc6c01842e14428f9a70426bdcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498853cce967e5f4d09b9f076663270c') in 0.010577 seconds 
+  Import took 0.016351 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000293 seconds.
-  path: Assets/Models/znaki drogowe/slup_znak_m.png
-  artifactKey: Guid(8be8a99c6b4b3614fafc8f6aec8fe21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/slup_znak_m.png using Guid(8be8a99c6b4b3614fafc8f6aec8fe21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de510d61d82de0199d9242dd195528e2') in 0.042414 seconds 
-  Import took 0.047663 seconds .
+  path: Assets/Models/Budynki/budynek03_2.FBX
+  artifactKey: Guid(0c8bba0ced6b7314c83f0ed975c73e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek03_2.FBX using Guid(0c8bba0ced6b7314c83f0ed975c73e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a9b3bf58796d2bdecc0f66337d47f7') in 0.120009 seconds 
+  Import took 0.126037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Models/znaki drogowe/3_zp.FBX
-  artifactKey: Guid(201fd839de5875d4989ab2518da4a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_zp.FBX using Guid(201fd839de5875d4989ab2518da4a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e27b1441be706fc551df16c94944c9') in 0.058572 seconds 
-  Import took 0.063741 seconds .
+  Time since last request: 0.000375 seconds.
+  path: Assets/Models/Budynki/budynek03_b.png
+  artifactKey: Guid(fdfe424e206f7f941949cfaeb9ba2efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek03_b.png using Guid(fdfe424e206f7f941949cfaeb9ba2efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1a2dfa47b3df788a71b1557333f8d5') in 0.060990 seconds 
+  Import took 0.066617 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Models/znaki drogowe/3_r.FBX
-  artifactKey: Guid(f5cfe11db981a8b41a4a808564dada8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_r.FBX using Guid(f5cfe11db981a8b41a4a808564dada8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe843d535db53f5b306d683e254a05d4') in 0.048862 seconds 
-  Import took 0.053869 seconds .
+  Time since last request: 0.000421 seconds.
+  path: Assets/Models/Budynki/Materials/budynek03_b.mat
+  artifactKey: Guid(c0a7f226c6add844dbf3ee71cdf9925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/Materials/budynek03_b.mat using Guid(c0a7f226c6add844dbf3ee71cdf9925d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db71acb2699203d4978bb614928d8101') in 0.013827 seconds 
+  Import took 0.019419 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Models/znaki drogowe/3_x.FBX
-  artifactKey: Guid(50f80f7096f6ce549a468d90b153b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_x.FBX using Guid(50f80f7096f6ce549a468d90b153b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2d655ec0cc36755bf78f40cd8bc17a') in 0.055402 seconds 
-  Import took 0.060549 seconds .
+  Time since last request: 0.000362 seconds.
+  path: Assets/Models/Budynki/budynek05.png
+  artifactKey: Guid(87e3b186471f1f9458375bae89904a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek05.png using Guid(87e3b186471f1f9458375bae89904a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee2c31ba0fc4cac29547192320400e4') in 0.021090 seconds 
+  Import took 0.027607 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Models/znaki drogowe/s_2_l.FBX
-  artifactKey: Guid(58f8f91aebfa3714594bf7c8f567fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_2_l.FBX using Guid(58f8f91aebfa3714594bf7c8f567fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a013850b333378cb333f1e0a3ef453e6') in 0.065344 seconds 
-  Import took 0.070512 seconds .
+  Time since last request: 0.000418 seconds.
+  path: Assets/Models/Budynki/Materials/budynek03_2.mat
+  artifactKey: Guid(8b9904cb5d485804d8af4bb0f7063ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/Materials/budynek03_2.mat using Guid(8b9904cb5d485804d8af4bb0f7063ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec41a1229cf266cdc9e89a48fcc1a52') in 0.013888 seconds 
+  Import took 0.019981 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Models/znaki drogowe/3_jelen.FBX
-  artifactKey: Guid(07c6e9c1fe2c5c94a96cf23edc905f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_jelen.FBX using Guid(07c6e9c1fe2c5c94a96cf23edc905f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d58011905898a86eaf9cfe5676d9f3') in 0.054102 seconds 
-  Import took 0.059185 seconds .
+  Time since last request: 0.000336 seconds.
+  path: Assets/Models/Budynki/budynek01_1.png
+  artifactKey: Guid(9f1f28c985b393a41be50fa7fc2809ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek01_1.png using Guid(9f1f28c985b393a41be50fa7fc2809ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c173212c954a603af956d88879ed681') in 0.028129 seconds 
+  Import took 0.034812 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Models/znaki drogowe/3_zp.png
-  artifactKey: Guid(6392bea92ff81f54f84c7c363a4cc1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_zp.png using Guid(6392bea92ff81f54f84c7c363a4cc1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95ffa2869f5e2f5c88f7047b0ab257d') in 0.007503 seconds 
-  Import took 0.012362 seconds .
+  Time since last request: 0.000332 seconds.
+  path: Assets/Models/Budynki/budynek03_2.png
+  artifactKey: Guid(74f3e8a35cb2e9a4dbd750c97a5d7b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek03_2.png using Guid(74f3e8a35cb2e9a4dbd750c97a5d7b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f0edf22ae31a155d3c1ed54ce15516') in 0.011133 seconds 
+  Import took 0.016852 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Models/znaki drogowe/s_2.png
-  artifactKey: Guid(6316902c339752b4ea7c69dbdbb7b28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_2.png using Guid(6316902c339752b4ea7c69dbdbb7b28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd8be4fe3aa70d1b8e1995356fd0c86') in 0.007885 seconds 
-  Import took 0.012444 seconds .
+  Time since last request: 0.000312 seconds.
+  path: Assets/Models/Budynki/budynek02.png
+  artifactKey: Guid(d0d738a818444eb43a03ace944d0f5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek02.png using Guid(d0d738a818444eb43a03ace944d0f5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90da8d1291aca4cba2a7ab73755f375') in 0.011812 seconds 
+  Import took 0.017435 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Models/znaki drogowe/4_t.png
-  artifactKey: Guid(3e3cef9771a0dad4d8d51d20cd3c7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/4_t.png using Guid(3e3cef9771a0dad4d8d51d20cd3c7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca5fca5bdbf9009373955a770dd4d76') in 0.007410 seconds 
-  Import took 0.012091 seconds .
+  Time since last request: 0.000395 seconds.
+  path: Assets/Models/Budynki/budynek02.FBX
+  artifactKey: Guid(3e5ad754578365a4b9e943611a1e43ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Budynki/budynek02.FBX using Guid(3e5ad754578365a4b9e943611a1e43ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e086ca6876415eebba4d892fa27d265') in 0.055105 seconds 
+  Import took 0.060607 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Models/znaki drogowe/3_jelen.png
-  artifactKey: Guid(f6f81f4d44d823d49b3fbe289d0e7b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_jelen.png using Guid(f6f81f4d44d823d49b3fbe289d0e7b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86104995f3be7ebf6d340481ab23ee5') in 0.007857 seconds 
-  Import took 0.012530 seconds .
+  Time since last request: 32.865535 seconds.
+  path: Assets/Models/Stacja paliw/4_st_paliw.png
+  artifactKey: Guid(1cfe4b0a97e92e54e9430e6d05a70a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/4_st_paliw.png using Guid(1cfe4b0a97e92e54e9430e6d05a70a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b18c2316ce97dd6b412003badc6dbe3') in 0.009535 seconds 
+  Import took 0.015876 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Models/znaki drogowe/3_4.png
-  artifactKey: Guid(4db2563a3184d494b9482dfc6da1cbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_4.png using Guid(4db2563a3184d494b9482dfc6da1cbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098ccd7bce8d80996c56e46d6d8d5700') in 0.007371 seconds 
-  Import took 0.011935 seconds .
+  Time since last request: 7.299348 seconds.
+  path: Assets/Models/Stacja paliw/st_paliw.FBX
+  artifactKey: Guid(47fbc046b5623cc40a6e2509b20126c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/st_paliw.FBX using Guid(47fbc046b5623cc40a6e2509b20126c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5dd03a19c3ac619c0bbd195d7d0337') in 0.054517 seconds 
+  Import took 0.061250 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Models/znaki drogowe/s_1.png
-  artifactKey: Guid(19c54990b6749374c97ed05d5d874af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_1.png using Guid(19c54990b6749374c97ed05d5d874af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c89ea5ede5a477d87017e824576454') in 0.007585 seconds 
-  Import took 0.012187 seconds .
+  Time since last request: 79.274957 seconds.
+  path: Assets/Models/Stacja paliw/slup_t.png
+  artifactKey: Guid(92ed5b886ec917c40b69a0d88b49cc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/slup_t.png using Guid(92ed5b886ec917c40b69a0d88b49cc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e21bbe29585aed919b7da95674ba47') in 0.009010 seconds 
+  Import took 0.015736 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Models/znaki drogowe/3_r.png
-  artifactKey: Guid(49d195a3788e08e4ca1a93b0dd6e8a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_r.png using Guid(49d195a3788e08e4ca1a93b0dd6e8a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51941af9d6846c0cb891b1f326f7b2d0') in 0.008362 seconds 
-  Import took 0.013796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Models/znaki drogowe/slup_znak.png
-  artifactKey: Guid(3ac53f5036833154db91432e5f91c3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/slup_znak.png using Guid(3ac53f5036833154db91432e5f91c3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dbbbe55b37fbb04f05db13ffb06c7c') in 0.009810 seconds 
-  Import took 0.015109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Models/znaki drogowe/4_t.FBX
-  artifactKey: Guid(65c434ad91a94d24d903aa83fd9b9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/4_t.FBX using Guid(65c434ad91a94d24d903aa83fd9b9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a066ba2e0bc2cf49fe2363e0934d51e5') in 0.059280 seconds 
-  Import took 0.065000 seconds .
+  Time since last request: 0.000394 seconds.
+  path: Assets/Models/Stacja paliw/SP_kolonka.png
+  artifactKey: Guid(d12c64bc20ab6514eb096a4a84e80ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/SP_kolonka.png using Guid(d12c64bc20ab6514eb096a4a84e80ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29f2b9c1858631f45dcacebd510d55c') in 0.009243 seconds 
+  Import took 0.014669 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000428 seconds.
-  path: Assets/Models/znaki drogowe/s_2_p.FBX
-  artifactKey: Guid(edb4ff589b672b849be86c31f14971c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_2_p.FBX using Guid(edb4ff589b672b849be86c31f14971c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ed5499c9deee4883c6d01defb80fb5') in 0.061915 seconds 
-  Import took 0.067318 seconds .
+  path: Assets/Models/Stacja paliw/sp_dach_t.png
+  artifactKey: Guid(459bc24b68e3c544183cd1cccc3b6751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/sp_dach_t.png using Guid(459bc24b68e3c544183cd1cccc3b6751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a7a86d95749412a0cca1234ead031c') in 0.008441 seconds 
+  Import took 0.013802 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Models/znaki drogowe/s_1p.FBX
-  artifactKey: Guid(5d9ba2ea1a199b34480e5f23cb092aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_1p.FBX using Guid(5d9ba2ea1a199b34480e5f23cb092aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56007baa4a9ee86115531627825ac417') in 0.052272 seconds 
-  Import took 0.057775 seconds .
+  Time since last request: 0.000387 seconds.
+  path: Assets/Models/Stacja paliw/sp_wyspa.png
+  artifactKey: Guid(5db4267e8a2517b4086133c92d4f9834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/sp_wyspa.png using Guid(5db4267e8a2517b4086133c92d4f9834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f343dbf979be6f8d31930868e88fc825') in 0.011605 seconds 
+  Import took 0.017192 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Models/znaki drogowe/3_z.png
-  artifactKey: Guid(2f3acf585ee2d824f9c9bbcbb29c191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_z.png using Guid(2f3acf585ee2d824f9c9bbcbb29c191d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72edaad8be40cd1912dae4e2abda3fe0') in 0.007782 seconds 
-  Import took 0.012616 seconds .
+  Time since last request: 0.000404 seconds.
+  path: Assets/Models/Stacja paliw/stacja paliw.FBX
+  artifactKey: Guid(e8a0f2fd2ad1aed4e886dc7ec886fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/stacja paliw.FBX using Guid(e8a0f2fd2ad1aed4e886dc7ec886fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952dcf1906d5d8cf5a84ec835c7b4244') in 0.428458 seconds 
+  Import took 0.434433 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Models/znaki drogowe/3_x.png
-  artifactKey: Guid(32e939d79b3f76744813ba17d04dd187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_x.png using Guid(32e939d79b3f76744813ba17d04dd187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3152d8b84acd1aa74a06866d6e4e0c38') in 0.007486 seconds 
-  Import took 0.012057 seconds .
+  Time since last request: 22.610756 seconds.
+  path: Assets/Models/Stacja paliw/stacja paliw.FBX
+  artifactKey: Guid(e8a0f2fd2ad1aed4e886dc7ec886fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/stacja paliw.FBX using Guid(e8a0f2fd2ad1aed4e886dc7ec886fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082319ee1b998a17bbcdcaa834b50205') in 0.446142 seconds 
+  Import took 0.453253 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Models/znaki drogowe/s_1L.FBX
-  artifactKey: Guid(9c6f4ee8b02c127489259d6b53044d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/s_1L.FBX using Guid(9c6f4ee8b02c127489259d6b53044d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc59509c64f9247fafbf25b80fb5fd0c') in 0.049867 seconds 
-  Import took 0.055225 seconds .
+  Time since last request: 0.000430 seconds.
+  path: Assets/Models/Stacja paliw/t_sp_budynek.png
+  artifactKey: Guid(f3c986f39fa3b1d4a8303db8a74ff95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/t_sp_budynek.png using Guid(f3c986f39fa3b1d4a8303db8a74ff95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f40a79b23ec7cdda337ad247f6a06e') in 0.011401 seconds 
+  Import took 0.017198 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Models/znaki drogowe/3_z.FBX
-  artifactKey: Guid(48a9cce698d6cd442a9686c3d7efce31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/znaki drogowe/3_z.FBX using Guid(48a9cce698d6cd442a9686c3d7efce31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679a9fe00ec7a2251fda889f3ffc2498') in 0.057563 seconds 
-  Import took 0.063259 seconds .
+  Time since last request: 13.687088 seconds.
+  path: Assets/Models/Stacja paliw/st_budynek.mat
+  artifactKey: Guid(950fd97af92befb408c9245ddbe192fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/st_budynek.mat using Guid(950fd97af92befb408c9245ddbe192fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c552f0f493bafdff90737854a7dabbf2') in 0.013221 seconds 
+  Import took 0.019859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.282536 seconds.
+  path: Assets/Models/Stacja paliw/stacja paliw.FBX
+  artifactKey: Guid(e8a0f2fd2ad1aed4e886dc7ec886fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/stacja paliw.FBX using Guid(e8a0f2fd2ad1aed4e886dc7ec886fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e609f0e07929420c990f3b5ac5b0ad') in 0.435241 seconds 
+  Import took 0.442285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Models/Stacja paliw/t_sp_budynek_bump.png
+  artifactKey: Guid(3dba908cbb2ef674a909f690cf79c6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/t_sp_budynek_bump.png using Guid(3dba908cbb2ef674a909f690cf79c6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ce3a6f30d045faffe20907d89aef6a') in 0.011294 seconds 
+  Import took 0.017020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.496695 seconds.
+  path: Assets/Models/Stacja paliw/t_sp_budynek_bump.png
+  artifactKey: Guid(3dba908cbb2ef674a909f690cf79c6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/t_sp_budynek_bump.png using Guid(3dba908cbb2ef674a909f690cf79c6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67416af9a941b814eb46b7f09ad27a62') in 0.021934 seconds 
+  Import took 0.028598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.758090 seconds.
+  path: Assets/Models/Stacja paliw/sp_kolonka.mat
+  artifactKey: Guid(9a0120ad449636b46906787efbb86e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/sp_kolonka.mat using Guid(9a0120ad449636b46906787efbb86e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427af640699f818207d856ab0b2f972b') in 0.014347 seconds 
+  Import took 0.021018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Models/Stacja paliw/st_budynek.mat
+  artifactKey: Guid(950fd97af92befb408c9245ddbe192fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/st_budynek.mat using Guid(950fd97af92befb408c9245ddbe192fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8af03b9abd62c2f5a3cd5433a5f8106') in 0.021816 seconds 
+  Import took 0.027545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.558114 seconds.
+  path: Assets/Models/Stacja paliw/New Material.mat
+  artifactKey: Guid(30f61187eb21224459770ea84c241bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/New Material.mat using Guid(30f61187eb21224459770ea84c241bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71518e50c189d93315508e85d58cc4fc') in 0.012807 seconds 
+  Import took 0.019341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.984300 seconds.
+  path: Assets/Models/Stacja paliw/New Material 1.mat
+  artifactKey: Guid(83b9a01d982b6f54c81f5c35df45ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/New Material 1.mat using Guid(83b9a01d982b6f54c81f5c35df45ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd7bf184a53c5fdbbbfe57f8fce31a4') in 0.012686 seconds 
+  Import took 0.019311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Models/Stacja paliw/New Material.mat
+  artifactKey: Guid(30f61187eb21224459770ea84c241bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/New Material.mat using Guid(30f61187eb21224459770ea84c241bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74bb54c852e6dd0d9580623aa6cbc34') in 0.010891 seconds 
+  Import took 0.016411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.884618 seconds.
+  path: Assets/Models/Stacja paliw/New Material 1.mat
+  artifactKey: Guid(83b9a01d982b6f54c81f5c35df45ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/New Material 1.mat using Guid(83b9a01d982b6f54c81f5c35df45ae9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd573f741154b7cf0f7e69fdd26e30c16') in 0.011283 seconds 
+  Import took 0.018246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Models/Stacja paliw/sklo.mat
+  artifactKey: Guid(e61da967cc3be2e44bb2cc6f6cf98e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Stacja paliw/sklo.mat using Guid(e61da967cc3be2e44bb2cc6f6cf98e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4373caff3429786f1e033afbfe2c4b0d') in 0.013118 seconds 
+  Import took 0.018811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 787.764152 seconds.
+  path: Assets/Color1.mat
+  artifactKey: Guid(02f5da387099bd3418aba2708f3538c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Color1.mat using Guid(02f5da387099bd3418aba2708f3538c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b76ea78422d45438a3061ba1ddc300') in 0.028666 seconds 
+  Import took 0.036000 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003884 seconds.
+Registered in 0.004366 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.598 seconds
+- Completed reload, in  1.581 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1599ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1582ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1345ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1344ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (459ms)
+			SetupTypeCache (491ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (480ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (451ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (320ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (302ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.1 MB.
-System memory in use after: 155.4 MB.
+Unloading 2863 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.3 MB.
+System memory in use after: 155.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3521.
-Total: 5.709700 ms (FindLiveObjects: 0.485300 ms CreateObjectMapping: 0.203100 ms MarkObjects: 4.987400 ms  DeleteObjects: 0.031900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3561.
+Total: 5.189800 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.177800 ms MarkObjects: 4.569900 ms  DeleteObjects: 0.028900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -514,274 +553,106 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1487.836095 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon02.brush
-  artifactKey: Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon02.brush using Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4185add98411117d5c6c8939e33240') in 0.083423 seconds 
-  Import took 0.090246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano02.brush
-  artifactKey: Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano02.brush using Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7631ca7b29517d7256c4e9bd01b40ec4') in 0.040470 seconds 
-  Import took 0.046115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground01.brush
-  artifactKey: Guid(a27a2665c8aec334ba8bbba24ee0c827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_crackedground01.brush using Guid(a27a2665c8aec334ba8bbba24ee0c827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411c95aba20c4f5bee8ac30be21af014') in 0.010681 seconds 
-  Import took 0.015741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon03.brush
-  artifactKey: Guid(d4e29f095247ea040aabee8a6cb3b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon03.brush using Guid(d4e29f095247ea040aabee8a6cb3b010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e844e8e8c689e4b1bb2c9c361309fd') in 0.012802 seconds 
-  Import took 0.018807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.673355 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer
-  artifactKey: Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer using Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef68002a3da11c76c6650df4357606a') in 0.065810 seconds 
-  Import took 0.072073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000492 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer
-  artifactKey: Guid(6a3097ee6a39c594e8c63dae726b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/scree.terrainlayer using Guid(6a3097ee6a39c594e8c63dae726b2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a736e60434e7c8c82977541d13fa3bc1') in 0.039458 seconds 
-  Import took 0.045263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer
-  artifactKey: Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer using Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a053513e2aa0b529290eee47c5eec240') in 0.035872 seconds 
-  Import took 0.041273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer
-  artifactKey: Guid(716937fe861ba6748bfd599e6802e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/rock.terrainlayer using Guid(716937fe861ba6748bfd599e6802e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc6ca9b42a3d3de0ba264e51abd4d06') in 0.046759 seconds 
-  Import took 0.052036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.246333 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer 1.terrainlayer
-  artifactKey: Guid(212eae6d21c537d4aab547ecdf6ace9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer 1.terrainlayer using Guid(212eae6d21c537d4aab547ecdf6ace9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6f5cfd2707dcc80a9d6c96d1a5daba') in 0.009690 seconds 
-  Import took 0.016353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer 2.terrainlayer
-  artifactKey: Guid(2dfa19a157d9841429bdcc646d60d968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer 2.terrainlayer using Guid(2dfa19a157d9841429bdcc646d60d968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987325a3ae5fb5ce23de5cda78df3624') in 0.012542 seconds 
-  Import took 0.018486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer 3.terrainlayer
-  artifactKey: Guid(f7a7e26b59da5104080176e03f658e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer 3.terrainlayer using Guid(f7a7e26b59da5104080176e03f658e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ec3eedd7a3409e2feb7f00816dfe70') in 0.010556 seconds 
-  Import took 0.015889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer.terrainlayer
-  artifactKey: Guid(3eb82139d65546045ab3f4a4a74ed09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer.terrainlayer using Guid(3eb82139d65546045ab3f4a4a74ed09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a501d0734dd61e4c73bc3a7c58f434') in 0.012507 seconds 
-  Import took 0.020700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.614332 seconds.
-  path: Assets/Models/chodnik/NewLayer.terrainlayer
-  artifactKey: Guid(f26ce7095bac43847a5040e2fdf3741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/chodnik/NewLayer.terrainlayer using Guid(f26ce7095bac43847a5040e2fdf3741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2f421290f591402bd253528cc5f803') in 0.009332 seconds 
-  Import took 0.015549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.096450 seconds.
-  path: Assets/Models/chodnik/NewLayer 1.terrainlayer
-  artifactKey: Guid(b924080af71ebe548a24cf03ef48deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/chodnik/NewLayer 1.terrainlayer using Guid(b924080af71ebe548a24cf03ef48deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4ad0e08afb1e5f1eaed9f68c3ea460') in 0.013709 seconds 
-  Import took 0.019739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.461215 seconds.
-  path: Assets/Models/chodnik/NewLayer 2.terrainlayer
-  artifactKey: Guid(79a2594597858e9429c67a11fd640d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/chodnik/NewLayer 2.terrainlayer using Guid(79a2594597858e9429c67a11fd640d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1bf903124ae3f3aa25461d995e7665') in 0.013432 seconds 
-  Import took 0.019636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.763098 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/420x280.png
-  artifactKey: Guid(31a0768d82b97ff44ab40beaf4bcc592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/420x280.png using Guid(31a0768d82b97ff44ab40beaf4bcc592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6872596968df08f2d55d0146f0af37') in 0.038825 seconds 
-  Import took 0.045125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/bc_s.png
-  artifactKey: Guid(dc680ee8dd94e694b8913d3d733dd337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/bc_s.png using Guid(dc680ee8dd94e694b8913d3d733dd337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b9663c7bb7f61437b271c0a1c08344') in 0.029247 seconds 
-  Import took 0.035187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Normal] [AO] [Specular].psd
-  artifactKey: Guid(cc724252428df448db5a10316678900b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Normal] [AO] [Specular].psd using Guid(cc724252428df448db5a10316678900b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cd01a5d84d26700d61ba15c3f0639f') in 0.024835 seconds 
-  Import took 0.030404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches [Trans] [Smoothness].psd
-  artifactKey: Guid(ca6a46a4d37514e00ae826202bad794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches [Trans] [Smoothness].psd using Guid(ca6a46a4d37514e00ae826202bad794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153b4a8f1a4744b579525202a6791055') in 0.009816 seconds 
-  Import took 0.015437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/asoliddev - Car Maker/Documentation/html/bdwn.png
-  artifactKey: Guid(7a41e3cbb80645847b170298a78eef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asoliddev - Car Maker/Documentation/html/bdwn.png using Guid(7a41e3cbb80645847b170298a78eef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34651d2b2167cfe17cdb485d927e3640') in 0.028268 seconds 
-  Import took 0.033612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Albedo] [Smoothness].tif
-  artifactKey: Guid(802f5539a44734bfcacbe5243d44edf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Trunk [Albedo] [Smoothness].tif using Guid(802f5539a44734bfcacbe5243d44edf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc2079871ba1558aefa656bd066b36c') in 0.015062 seconds 
-  Import took 0.020240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer  Branches [Albedo] [Smoothness].tif
-  artifactKey: Guid(5597dc21a8aed4e7ba2c0f93dc4b1d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer  Branches [Albedo] [Smoothness].tif using Guid(5597dc21a8aed4e7ba2c0f93dc4b1d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27f2b2cf2495be08064d166cbfdb455') in 0.015255 seconds 
-  Import took 0.020445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches_Normal combined.tif
-  artifactKey: Guid(d7dcdeeae2a5d4c6f8e5328e09728b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Branches_Normal combined.tif using Guid(d7dcdeeae2a5d4c6f8e5328e09728b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6538790cd56149e3260cb3b74855956') in 0.009664 seconds 
-  Import took 0.014816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 389.757296 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Bare BOTD.prefab
-  artifactKey: Guid(539fa9bc6500e44708e0f7b2c78cbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Bare BOTD.prefab using Guid(539fa9bc6500e44708e0f7b2c78cbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2761840b8db351accf8932ebe48454ba') in 0.234635 seconds 
-  Import took 0.241881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab
-  artifactKey: Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab using Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e0a9f6dd16e62865b583bf1298a832') in 0.036107 seconds 
-  Import took 0.041690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Tall BOTD.prefab
-  artifactKey: Guid(f41642586885949968180791f012ee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Tall BOTD.prefab using Guid(f41642586885949968180791f012ee81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37465887cdab7eb0f229ab4578421b9d') in 0.042104 seconds 
-  Import took 0.047950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Medium BOTD.prefab
-  artifactKey: Guid(abdd95d0229d64588b03d2806d9cc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Medium BOTD.prefab using Guid(abdd95d0229d64588b03d2806d9cc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63df08ec6a2cefa658cc1331ca0eb1b0') in 0.036241 seconds 
-  Import took 0.042021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 647.164493 seconds.
-  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer 4.terrainlayer
-  artifactKey: Guid(1a9aac2072c3f7b4e97c2db5afb2230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/NewLayer 4.terrainlayer using Guid(1a9aac2072c3f7b4e97c2db5afb2230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7cdb2d80e87c32a7dac5e386c13c85') in 0.022391 seconds 
-  Import took 0.029336 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003833 seconds.
+Registered in 0.003974 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.532 seconds
+- Completed reload, in  1.533 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1532ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1534ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1295ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1308ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (448ms)
+			SetupTypeCache (452ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (455ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (460ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2863 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.0 MB.
-System memory in use after: 155.2 MB.
+System memory in use before: 155.3 MB.
+System memory in use after: 155.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3570.
-Total: 5.361100 ms (FindLiveObjects: 0.419000 ms CreateObjectMapping: 0.174800 ms MarkObjects: 4.728700 ms  DeleteObjects: 0.036700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3563.
+Total: 5.627500 ms (FindLiveObjects: 0.403200 ms CreateObjectMapping: 0.463000 ms MarkObjects: 4.723000 ms  DeleteObjects: 0.036500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1588ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1357ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (486ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2863 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.3 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3565.
+Total: 5.122000 ms (FindLiveObjects: 0.411000 ms CreateObjectMapping: 0.170200 ms MarkObjects: 4.512900 ms  DeleteObjects: 0.026200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
