@@ -2,27 +2,52 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+public class PlayerController : MonoBehaviour {
+
+    private float horizontalInput, verticalInput, steeringAngle;
+    public WheelCollider rearDriverWheel, rearPassengerWheel, frontDriverWheel, frontPassengerWheel;
+    public Transform rearDriverT, rearPassengerT, frontDriverT, frontPassengerT;
+    public float maxSteerAngle = 30;
+    public float motorForce = 50;
+
+    void Update () { }
+
+    public void GetInput () {
+        horizontalInput = Input.GetAxis ("Horizontal");
+        verticalInput = Input.GetAxis ("Vertical");
     }
 
-    private float speed = 8.0f;
-    private float turnSpeed = 45.0f;
-    private float horizontalInput; 
-    private float forwardInput;
-
-    // Update is called once per frame
-    void Update()
-    {
-        horizontalInput = Input.GetAxis("Horizontal"); forwardInput = Input.GetAxis("Vertical");
-
-
-        transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput); // move forward
-        // turning
-        transform.Rotate(Vector3.up * Time.deltaTime * turnSpeed * horizontalInput);
+    public void Steer () {
+        steeringAngle = maxSteerAngle * horizontalInput;
+        frontDriverWheel.steerAngle = steeringAngle;
+        frontPassengerWheel.steerAngle = steeringAngle;
     }
+
+    private void Accelerate () {
+        frontDriverWheel.motorTorque = verticalInput * motorForce;
+        frontPassengerWheel.motorTorque = verticalInput * motorForce;
+    }
+
+    private void UpdateWheelsPosition () {
+        UpdateWheelPosition (frontDriverWheel, frontDriverT);
+        UpdateWheelPosition (frontPassengerWheel, frontPassengerT);
+        UpdateWheelPosition (rearDriverWheel, rearDriverT);
+        UpdateWheelPosition (rearPassengerWheel, rearPassengerT);
+    }
+
+    private void UpdateWheelPosition (WheelCollider collider, Transform transform) {
+        Vector3 pos = transform.position;
+        Quaternion quat = transform.rotation;
+        collider.GetWorldPose (out pos, out quat);
+        transform.position = pos;
+        transform.rotation = quat * Quaternion.Euler (0, -90, 0);
+    }
+
+    private void FixedUpdate () {
+        GetInput ();
+        Steer ();
+        Accelerate ();
+        UpdateWheelsPosition ();
+    }
+
 }
