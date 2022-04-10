@@ -12,7 +12,7 @@ public class MenuManager : MonoBehaviour {
     }
 
     private void Update () {
-        if (Input.GetKeyDown (KeyCode.Escape) && helpPanel.activeSelf) {
+        if (Input.GetKeyDown (KeyCode.H) && helpPanel.activeSelf) {
             closeHelpPanel ();
         }
     }

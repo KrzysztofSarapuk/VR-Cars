@@ -20,8 +20,7 @@ public class GameManager : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         if (Input.GetKeyDown (KeyCode.H) && !helpPanel.activeSelf) {
-            helpPanel.SetActive (true);
-            Time.timeScale = 0;
+            StartCoroutine ("ShowHelpPanel");
         } else if (Input.GetKey (KeyCode.R)) {
             restartTimer += Time.deltaTime;
             float percent = restartTimer / 1;
@@ -34,5 +33,11 @@ public class GameManager : MonoBehaviour {
             restartTimer = 0;
             SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
         }
+    }
+
+    public IEnumerator ShowHelpPanel () {
+        yield return new WaitForEndOfFrame ();
+        helpPanel.SetActive (true);
+        Time.timeScale = 0;
     }
 }
